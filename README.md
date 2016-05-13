@@ -3,7 +3,6 @@
 install dependencies
 ```sh
 npm install -d
-bower install
 ```
 
 run the server
