@@ -2,7 +2,8 @@ var require = {
   baseUrl: '/build/js',
   paths: {
 	  '$routeProvider': '../../lib/angular-route/angular-route',
-	  'angular': '../../lib/angular/angular'
+    'angular': '../../lib/angular/angular',
+	  'constants': './constants'
   },
   shim: {
   	angular: {

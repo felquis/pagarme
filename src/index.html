@@ -1,13 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <title>Document</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+  <link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.css">
+
+  <!--[if lte IE 8]>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
+  <!--<![endif]-->
 </head>
 <body>
   <div app-view>Loading</div>
 
-  <script src="./require-config.js"></script>
-  <script src="/lib/requirejs/require.js" data-main="/build/js/index.js"></script>
+  <script defer src="https://assets.pagar.me/js/pagarme.min.js"></script>
+  <script defer src="./require-config.js"></script>
+  <script defer src="/lib/requirejs/require.js" data-main="/build/js/index.js"></script>
 </body>
 </html>
