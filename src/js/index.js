@@ -1,7 +1,6 @@
 import angular from 'angular'
 import { routes } from 'routes'
 import { appView } from 'appView'
-import { addCreditCard } from 'directives/add-credit-card/add-credit-card'
 import { saveCard } from 'service/save-card'
 import { cancelTransaction } from 'service/cancel-transaction'
 import { createTransaction } from 'service/create-transaction'
